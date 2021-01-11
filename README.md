@@ -15,6 +15,13 @@ O principal motivador pela escolha da framework e linguagem foi o uso da mesma n
 Em conjunto com o selenium Webdriver (driver que utilizo neste projeto), é possível construir uma arquitetura de automação de testes robusta em pouco tempo.
 Também utilizei algumas npm's para geração de relatório mais detalhado e integração com o LambdaTest, a maior plataforma de testes em nuvem para automação.
 
+###  Estrutura do projeto
+
+Na imagem abaixo vemos a estrutura base do projeto, onde **jest.config.js** ficam as configurações do Jest como execução sequencial e caminho dos reports a serem salvos.
+Também temos a utils.js, onde encontra-se as funções base utilizadas em todo o projeto por  cada execução de um novo teste.
+
+![img_1.png](img_1.png)
+
 ### Instalação
 
 #### Nodejs
