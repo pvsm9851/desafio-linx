@@ -1,0 +1,56 @@
+{
+  "name": "desafio_linx",
+  "version": "0.1.0",
+  "description": "Desafio Linx",
+  "main": "utils.js",
+  "type": "module",
+  "keywords": [
+    "javascript",
+    "selenium",
+    "local",
+    "test",
+    "jest"
+  ],
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "author": "Paulo Melo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jasmin": "0.0.2",
+    "jasmine": "^3.4.0",
+    "jest": "^24.9.0",
+    "jest-environment-webdriver": "^0.2.0",
+    "jsdom": "^15.1.1",
+    "prettier": "^1.17.1",
+    "rimraf": "^2.6.3",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./jest.config.js",
+    "testEnvironment": "jest-environment-webdriver",
+    "testEnvironmentOptions": {
+      "browser": "chrome"
+    }
+  },
+  "dependencies": {
+    "chromedriver": "^87.0.5",
+    "@lambdatest/node-rest-client": "^1.0.0",
+    "jest-html-reporter": "^3.3.0",
+    "jest-screenshot": "^0.3.2",
+    "random-email": "^1.0.3",
+    "typescript": "^4.1.3"
+  }
+}
