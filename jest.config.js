@@ -5,7 +5,7 @@ module.exports = {
     reporters: [
         "default",
         ["./node_modules/jest-html-reporter", {
-            "pageTitle": "Relatório Desafio Linx",
+            "pageTitle": "Relatório Desafio Linx 2",
             "logo": "../linx_logo.png",
             "includeFailureMsg": true,
             "outputPath": "./reports/test-report.html"
